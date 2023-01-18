@@ -15,3 +15,7 @@ npm install
 ```sh
 npm run start
 ```
+
+## Screenshots
+![Screenshot 1](https://raw.githubusercontent.com/irunawiki/terminus/master/screenshot/ss1.png)
+![Screenshot 2](https://raw.githubusercontent.com/irunawiki/terminus/master/screenshot/ss2.png)
