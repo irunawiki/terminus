@@ -3,7 +3,7 @@ A simple classic pokemon game but with iruna monsters using Redux, websocket. Su
 
 ## Requirements
 1. NodeJS installed
-2. Terminus backend server must be running
+2. Terminus backend server must be running, see https://github.com/irunawiki/terminus-backend for instructions
 
 ## Build the project
 1. Clone this repo
