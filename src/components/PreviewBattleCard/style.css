@@ -1,0 +1,157 @@
+.preview-battle-card-root {
+    width: 11em;
+    height: 17em;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    border: 0.5em ridge #53b5a8;
+    border-image-source: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAA7ElEQVRYhe2YMQ6DMAxFcwBGRtaeoFUv0K2qOAa36NYDVmLjMmHB0VfqEJbG3xKRvkTiAE+OnYBD2FrfDdFSAVvfDfH7vpsqQQnMMk9xmad0jWOacJ4o79fGVSgEEsPnda1qbx7a8mdifxcIJ7aKm6qHBOZxuTURQsm7i0Djc/y7fAHhYEsgTCYqD6lZRrVk1h6iAZIYoglqOg/RAflZMtwLKDZGOg+dQe0OiO60t8oyutP+/B5yF9R0QH6yTEiplgxJW+jQv30urHagJ0v22n2lSkjyEF196EjRqlRK0cowaNfmaLYfGOuyHjKsYnCffLyABLkAAAAASUVORK5CYII=);
+    border-image-repeat: repeat;
+    border-image-slice: 6 6 6 6;
+    border-image-width: 0.75rem;
+    border-width: 0.75rem;
+    border-width: 0.5rem;
+    image-rendering: -moz-crisp-edges;
+    image-rendering: pixelated;
+    cursor: pointer;
+}
+
+.preview-battle-card-root:hover {
+    -webkit-box-shadow: -1px 0px 13px 14px rgba(37,91,158,1);
+    -moz-box-shadow: -1px 0px 13px 14px rgba(37,91,158,1);
+    box-shadow: -1px 0px 13px 14px rgba(37,91,158,1);
+}
+
+
+
+.preview-battle-card-header {
+    height: 50px;
+    background-color: #2a3335;
+    color: white;
+    font-size: 0.70rem;
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    justify-content: space-between;
+    padding: 0 6px;
+}
+
+.preview-battle-card-skill-title {
+    font-size: 0.70rem;
+    margin: 5px;
+}
+
+.preview-battle-card-image {
+    display: flex;
+    justify-content: center;
+    background-color: #9e9e9e;
+}
+
+.preview-battle-card-image > img {
+    display: block;
+    height: 120px;
+}
+
+.preview-battle-card-body {
+    background: #2a3335;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.preview-battle-card-type {
+    padding: 8px;
+    background-color: hsl(0deg 33% 19%);
+    border-radius: 6px;
+    color: white;
+    font-size: 0.70rem;
+    font-weight: 500;
+}
+
+.fighter-preview-skill-row {
+    display: grid;
+    display: -moz-inline-grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    font-size: 0.5rem;
+    color: white;
+    font-weight: 600;
+    align-items: center;
+}
+
+.fighter-preview-skill-row > .fighter-skill-level {
+    margin: 0 4px;
+}
+
+.fighter-preview-skill-title {
+    color: #00bcd4;
+    font-size: 0.55rem;
+}
+
+.fighter-preview-skill-row-body {
+    margin: 0 4px;
+    grid-column: 2/5;
+}
+
+.fighter-preview-skill-row-body-image {
+    width: 32px;
+    height: 32px;
+}
+
+.fighter-preview-skill-row-body-image > img {
+    height: 32px;
+    width: 32px;
+    display: block;
+}
+
+.fighter-preview-skill-energy {
+    display: flex;
+    align-items: center;
+}
+
+.preview-batle-card-detail {
+    width: 100%;
+}
+
+
+
+/*
+
+MINI version
+*/
+.preview-battle-card-root-mini {
+    width: 5em;
+    height: 10em;
+}
+
+.preview-battle-card-root-mini .preview-battle-card-header {
+    height: 20px;
+    font-size: 0.4rem;
+}
+
+.preview-battle-card-root-mini .preview-battle-card-image > img {
+    display: block;
+    height: 50px;
+}
+
+.preview-battle-card-root-mini .fighter-preview-skill-row {
+    font-size: 0.3rem;
+}
+
+.preview-battle-card-root-mini .fighter-preview-skill-title {
+    font-size: 0.3rem;
+}
+
+.preview-battle-card-root-mini .preview-battle-card-skill-title {
+    font-size: 0.4rem;
+}
+
+.preview-battle-card-root-mini .fighter-preview-skill-row-body-image {
+    width: 16px;
+    height: 16px;
+}
+
+.preview-battle-card-root-mini .fighter-preview-skill-row-body-image > img {
+    width: 16px;
+    height: 16px;
+}

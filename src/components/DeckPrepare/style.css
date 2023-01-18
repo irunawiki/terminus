@@ -1,0 +1,25 @@
+.deck-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.deck-row-item {
+    margin: 0 10px;
+}
+
+.deck-switch-button-root {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.deck-scroll {
+    overflow-x: scroll;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.deck-scroll::-webkit-scrollbar {
+    display: none;
+}

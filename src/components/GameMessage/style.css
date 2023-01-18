@@ -1,0 +1,26 @@
+.game-message-container {
+    height: 20vh;
+    width: 350px;
+    background: #362d27;
+    border: 0.5em ridge #53b5a8;
+    border-image-source: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAA7ElEQVRYhe2YMQ6DMAxFcwBGRtaeoFUv0K2qOAa36NYDVmLjMmHB0VfqEJbG3xKRvkTiAE+OnYBD2FrfDdFSAVvfDfH7vpsqQQnMMk9xmad0jWOacJ4o79fGVSgEEsPnda1qbx7a8mdifxcIJ7aKm6qHBOZxuTURQsm7i0Djc/y7fAHhYEsgTCYqD6lZRrVk1h6iAZIYoglqOg/RAflZMtwLKDZGOg+dQe0OiO60t8oyutP+/B5yF9R0QH6yTEiplgxJW+jQv30urHagJ0v22n2lSkjyEF196EjRqlRK0cowaNfmaLYfGOuyHjKsYnCffLyABLkAAAAASUVORK5CYII=);
+    border-image-repeat: repeat;
+    border-image-slice: 6 6 6 6;
+    border-image-width: 0.75rem;
+    border-width: 0.75rem;
+    border-width: 0.5rem;
+    image-rendering: -moz-crisp-edges;
+    image-rendering: pixelated;
+}
+
+.game-message-container-inner {
+    background: #362d27;
+    width: 100%;
+    height: 100%;
+    overflow-y: scroll;
+}
+
+.message-row {
+    font-size: 12px;
+    margin: 4px;
+}

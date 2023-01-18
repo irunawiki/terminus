@@ -1,0 +1,53 @@
+.skill-button-container {
+    border: 0.5em ridge #53b5a8;
+    border-image-source: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAA7ElEQVRYhe2YMQ6DMAxFcwBGRtaeoFUv0K2qOAa36NYDVmLjMmHB0VfqEJbG3xKRvkTiAE+OnYBD2FrfDdFSAVvfDfH7vpsqQQnMMk9xmad0jWOacJ4o79fGVSgEEsPnda1qbx7a8mdifxcIJ7aKm6qHBOZxuTURQsm7i0Djc/y7fAHhYEsgTCYqD6lZRrVk1h6iAZIYoglqOg/RAflZMtwLKDZGOg+dQe0OiO60t8oyutP+/B5yF9R0QH6yTEiplgxJW+jQv30urHagJ0v22n2lSkjyEF196EjRqlRK0cowaNfmaLYfGOuyHjKsYnCffLyABLkAAAAASUVORK5CYII=);
+    border-image-repeat: repeat;
+    border-image-slice: 6 6 6 6;
+    border-image-width: 0.65rem;
+    border-width: 0.75rem;
+    border-width: 0.5rem;
+    image-rendering: -moz-crisp-edges;
+    image-rendering: pixelated;
+    width: 250px;
+    height: 50px;
+    overflow-y: scroll;
+    font-size: 0.6rem;
+    position: relative;
+}
+
+.skill-button-root {
+    position: relative;
+    margin: 10px;
+    width: 250px;
+    height: 50px;
+    cursor: pointer;
+}
+
+.skill-button-root:hover {
+    -webkit-box-shadow: -1px 0px 13px 14px rgba(37,91,158,1);
+    -moz-box-shadow: -1px 0px 13px 14px rgba(37,91,158,1);
+    box-shadow: -1px 0px 13px 14px rgba(37,91,158,1);
+}
+
+.skill-body {
+    background: #362d27;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+}
+
+.skill-name {
+    font-size: 0.75rem;
+}
+
+.skill-energy {
+    position: absolute;
+    top: -8px;
+    left: -4px;
+    font-size: 0.7rem;
+    border-radius: 50%;
+    background: #03a9f4;
+    padding: 6px;
+}

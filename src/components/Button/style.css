@@ -1,0 +1,23 @@
+.button {
+    background: url(https://static.vecteezy.com/system/resources/previews/010/977/123/original/purple-neon-button-png.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 400px;
+    background-position: 50%;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.7rem;
+    text-transform: uppercase;
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.button:hover {
+    opacity: 1;
+}
+
+.button-active {
+    opacity: 1;
+}

@@ -1,0 +1,20 @@
+.game-board {
+    width: 100vw;
+    height: 100vh;
+    /*background: url(https://assets.website-files.com/5f6c71314a8db82b6218d0ea/60785e3b8fe32f534c6d9906_Pic_6.jpg);*/
+    background: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/f00c1438-ddcf-4e5c-8a30-f0fe5743601a/dbt87if-e51e340c-f8fb-4c9d-926e-8b5cb6c9a130.jpg/v1/fill/w_1444,h_553,q_70,strp/city_of_dis_by_carloscara_dbt87if-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTA4MCIsInBhdGgiOiJcL2ZcL2YwMGMxNDM4LWRkY2YtNGU1Yy04YTMwLWYwZmU1NzQzNjAxYVwvZGJ0ODdpZi1lNTFlMzQwYy1mOGZiLTRjOWQtOTI2ZS04YjVjYjZjOWExMzAuanBnIiwid2lkdGgiOiI8PTI4MTYifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.IFpYTx4CNJkVewvs7Qi2-wewoVwhk8yUjX0bo_Z5Z90);
+    background-attachment: fixed;
+    /* background-position: center bottom; */
+    background-position: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    font-weight: bold;
+}
+
+.game-board-overlay {
+    background: #00000050;
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+}

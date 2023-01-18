@@ -1,0 +1,13 @@
+.fighter-skill-container {
+    display: flex;
+    width: 60vw;
+    flex-wrap: wrap;
+}
+
+.fighter-actions {
+    width: 40vw;
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    align-items: center;
+}

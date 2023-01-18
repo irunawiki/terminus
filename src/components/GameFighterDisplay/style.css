@@ -1,0 +1,13 @@
+.fighter-preview {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+.fighter-preview-body {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 45vh;
+}

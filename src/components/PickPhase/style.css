@@ -1,0 +1,22 @@
+.pick-phase-header {
+    height: 20vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.pick-phase-body {
+    height: 50vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.pick-phase-header-fighter-stat {
+    margin: 10px;
+}
+
+.fighter-preview {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
